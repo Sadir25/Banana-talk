@@ -9,11 +9,15 @@
 
 // document is an api present in every browser
 var btnTranslate = document.querySelector("#btn-translate")
-// console.log(btnTranslate)
+var txtInput=document.querySelector("#text-input");
+var outputDiv = document.querySelector("#output")
 
+// outputDiv.innerText = "Sadir Irfan"
+// console.log(outputDiv)
+// console.log(txtInput)
 
-var txtInput=document.querySelector("#text-input")
-console.log(txtInput)
+// var txtInputAnother = documnet.querySelectorAll("#text-input-another")
+// console.log(txtInputAnother)
 //how do users interact with on app--- using eventListner
 
 //addEventListener(what event, what it should do after the event happens)
@@ -21,8 +25,7 @@ console.log(txtInput)
 btnTranslate.addEventListener("click",clickEventHandler)
 
 function clickEventHandler(){
-    console.log("clicked")
-    console.log("input",txtInput.value)
+    outputDiv.innerText = "klsjakljajslkj"+" "+txtInput.value
 }
 
 
