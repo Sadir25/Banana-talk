@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+
+:root{
+    --primary-color:#FFF433;
+}
+
+
+ body{
+    font-family: 'Brygada 1918', serif;
+    margin: 0%;
+    color: black;
+    min-height: 100vh;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+} 
+nav{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+
+textarea{
+    display: block;
+    width: 70%;
+    height: 20vh;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: x-large;
+    font-family: 'Brygada 1918', serif;
+}
+#output {
+    
+    display: block;
+    width: 70%;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 1rem 5rem;
+    font-size: x-large;
+    font-family: 'Brygada 1918', serif;
+}
+#btn-translate{
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 5rem;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+   border-radius:25px;
+}
+
+.div{
+    margin: 0 5rem;
+    
+}
+::placeholder{
+    font-size: x-large;
+    font-family: 'Brygada 1918', serif;
+}
+
+footer{
+    align-self: flex-end;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    font-size:medium;
+}
+
+
